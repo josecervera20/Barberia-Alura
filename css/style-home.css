@@ -1,49 +1,59 @@
-.titulo-principal{
+/* Título con sangría a la izquierda */
+.titulo-principal {
     padding-left: 30px;
 }
 
-#banner{
-    width:100%;
+/* Imagen de banner ocupa todo el ancho */
+#banner {
+    width: 100%;
 }
 
-.principal{
+/* Sección principal con fondo gris claro y espaciado */
+.principal {
     background: #CCCCCC;
     padding: 20px;
 }
 
-.titulo-centralizado{
+/* Centra el texto */
+.titulo-centralizado {
     text-align: center;
 }
 
-p{
+/* Centra todos los párrafos */
+p {
     text-align: center;
 }
 
-em strong{
-    color:red;
+/* Estilo para texto enfatizado dentro de strong */
+em strong {
+    color: red;
 }
 
-#mision{
+/* Sección misión con texto más grande */
+#mision {
     font-size: 20px;
 }
 
-.diferenciales{
+/* Contenedor de diferenciales con fondo blanco */
+.diferenciales {
     background: #FFFFFF;
     padding: 30px;
 }
 
-.items{
+/* Estilo cursiva para ítems */
+.items {
     font-style: italic;
 }
 
-ul{
+/* Lista alineada en línea, con ancho y margen derecho */
+ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 
-.imagenDiferenciales{
+/* Imagen de diferenciales al 50% del ancho */
+.imagenDiferenciales {
     width: 50%;
 }
-

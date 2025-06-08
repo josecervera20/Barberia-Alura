@@ -1,18 +1,22 @@
+/* Fuente principal */
 body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Encabezado */
 header {
   background-color: #bbbbbb;
   padding: 20px 0;
 }
 
+/* Contenedor centrado */
 .caja {
   width: 940px;
   position: relative;
   margin: 0 auto;
 }
 
+/* Navegación */
 nav {
   position: absolute;
   top: 110px;
@@ -24,6 +28,7 @@ nav li {
   margin: 0 0 0 15px;
 }
 
+/* Enlaces de navegación */
 nav a {
   text-transform: uppercase;
   color: #000000;
@@ -37,6 +42,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Lista de productos */
 .productos {
   width: 940px;
   margin: 0 auto;
@@ -55,6 +61,7 @@ nav a:hover {
   border-radius: 10px;
 }
 
+/* Efectos al pasar o hacer clic */
 .productos li:hover {
   border-color: #c78c19;
 }
@@ -72,6 +79,7 @@ nav a:hover {
   font-size: 33px;
 }
 
+/* Descripción y precio */
 .producto-descripcion {
   font-size: 18px;
 }
@@ -82,9 +90,10 @@ nav a:hover {
   margin-top: 10px;
 }
 
+/* Pie de página */
 footer {
   text-align: center;
-  background: url(imagenes/bg.jpg);
+  background: url(../imagenes/bg.jpg);
   padding: 40px;
 }
 
@@ -94,6 +103,7 @@ footer {
   margin: 20px;
 }
 
+/* Formulario */
 form {
   margin: 40px 0;
 }
@@ -105,6 +115,7 @@ form legend {
   margin: 0 0 10px;
 }
 
+/* Campos del formulario */
 .input-padron {
   display: block;
   margin: 0 0 20px;
@@ -112,10 +123,12 @@ form legend {
   width: 50%;
 }
 
+/* Checkbox */
 .checkbox {
   margin: 20px 0;
 }
 
+/* Botón enviar */
 .enviar {
   width: 40%;
   padding: 15px 0;
@@ -134,6 +147,7 @@ form legend {
   transform: scale(1.2);
 }
 
+/* Tabla */
 table {
   margin: 40px 40px;
 }
@@ -151,10 +165,13 @@ th {
 }
 
 /*Aquí inicia el CSS para nuestra home*/
+
+/* Banner de inicio */
 .banner {
   width: 100%;
 }
 
+/* Sección principal */
 .principal {
   padding: 3em 0;
   background: #fefefe;
@@ -181,12 +198,14 @@ th {
   font-style: italic;
 }
 
+/* Imagen flotante */
 .utensilios {
   width: 120px;
   float: left;
   margin: 0 20px 20px 0;
 }
 
+/* Sección del mapa */
 .mapa {
   padding: 3em 0;
   background: linear-gradient(#fefefe, #888888);
@@ -202,6 +221,7 @@ th {
   margin: 0 auto;
 }
 
+/* Diferenciales */
 .diferenciales {
   padding: 3em 0;
   background: #888888;
@@ -230,6 +250,7 @@ th {
   font-weight: bold;
 }
 
+/* Imagen con sombra y efecto */
 .imagen-diferenciales {
   width: 60%;
   transition: 400ms;
@@ -240,11 +261,13 @@ th {
   opacity: 0.3;
 }
 
+/* Video embebido */
 .video {
   width: 560px;
   margin: 1em auto;
 }
 
+/* Estilos responsivos */
 @media screen and (max-width: 480px) {
   h1 {
     text-align: center;
