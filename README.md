@@ -22,7 +22,7 @@ Este proyecto es una página web estática desarrollada como parte de los cursos
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/josecervera20/Barberia-Alura.git](https://github.com/josecervera20/Barberia-Alura.git)
+    git clone https://github.com/josecervera20/Barberia-Alura.git
     ```
 2.  Navega al directorio del proyecto:
     ```bash
