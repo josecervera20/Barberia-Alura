@@ -35,3 +35,7 @@ Este proyecto es una página web estática desarrollada como parte de los cursos
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes sugerencias de mejora, no dudes en abrir un _issue_ o enviar un _pull request_.
 
 ---
+
+## 📄 Licencia
+
+Este proyecto es de código abierto y se publica bajo la [Licencia MIT](LICENSE). Siéntete libre de usar, modificar y distribuir este código para tus propios proyectos.
